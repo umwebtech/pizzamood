@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.nav_style{
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15) ;
+
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #333;
+    position: relative;
+}
+.navbar-nav li a:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    width: 0%;
+    height: 3%;
+    background: orangered;
+    transition: all 0.3s linear;
+}
+.navbar-nav li a:hover:before{
+    width: 80%;
+}
+.navbar-nav li a:hover{
+    color: orangered;
+}
+.navbar-light .navbar-nav .nav-link .active{
+    color: orangered;
+}
+@media (max-width: 998px){
+    .navbar-nav{
+        text-align:center;
+    }
+    .navbar-nav li a:hover:before{
+        width: 0%;
+    }
+}
+
+/* header style css */
+.heading_text{
+    font-size: 26px;
+    color: #8c8c8c;
+    margin-top: 80px;
+    
+}
+
+.span_header_text{
+    font-size: 20px;
+    color: orangered;
+}
+.span_header2_text{
+    font-size: 20px;
+    color: black;
+}
+.check_receipe{
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    background: orangered;
+    color: cornsilk;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+.gallery{
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    color: orangered;
+    background: cornsilk;
+    text-transform: capitalize;
+    border: 1px solid orangered;
+    outline: none;
+    font-size: 15px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+.check_receipe:hover{
+    color: orangered;
+    background: cornsilk;
+    border: 1px solid orangered;
+}
+.gallery:hover{
+    background: orangered;
+    color: cornsilk;
+}
+.header_mail{
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+.header_mail p:nth-child(2){
+    margin-top: -20px;
+    font-size: 15px;
+}
+.image{
+    margin-top: 100px;
+    float: right;
+}
+.pizza_image{
+    border-radius: 30%;
+}
+
+/* ingredient section */
+.ingredient_sec{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15) ;
+}
+.title_heading{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+.title_sub_heading{
+    font-size: 20px;
+    color: orangered;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+}
+.main, .sub_main, .ingredient_img{
+    padding-top: 40px; 
+}
+
+/* receipe section */
+.receipe_sec{
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    background-color:  rgb(238, 238, 238);
+    /* box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15) ; */
+}
+.span_text{
+    font-size: 15px;
+    color: rgb(73, 69, 69);
+}
+.video{
+    float: right;
+    padding-top: 50px;
+}
+
+/* Links */
+
+.link_main{
+ padding-top: 10px;
+ margin-bottom: 50px;
+}
+.link_div{
+    border-radius:  rgb(238, 238, 238);;
+    padding: 20px 10px 30px 10px;
+    margin-top: 50px;
+    transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    position: relative;
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15) ;
+}
+.link_div:hover{
+    background: #fff;
+    box-shadow: 0 0 4px 1px grey;
+}
+.link_div h3 {
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    color: orangered;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: papayawhip;
+}
+.link_div h3:hover{
+    background: #fff;
+    border: 1px solid orangered;
+}
+.fa-thumbs-up{
+    left: 1px;
+    bottom: 1px;
+    color: rgb(238, 238, 238);
+}
+.link_div:hover .fa-thumbs-up{
+    color: #f7d4c4;
+}
+.link_div li:first-child{
+    padding-top: 20px;
+}
+.fa-dot-circle{
+    color: orangered;
+}
+.link_div a{
+    color: black;
+    text-decoration: none;
+}
+
+/* About section */
+.about_sec{
+    padding-top: 50px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../image/bg_img.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.tag_heading{
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.tag_sub_heading{
+    margin-top: -10px;
+    text-align: center;
+    color: orangered;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.about_sec button{
+    margin-bottom: 40px;
+}
+
+/* contact */
+.contact_me{
+    padding-top: 40px;
+    text-align: center;
+    background: rgb(255, 254, 254);;
+}
+.contact{
+    padding: 20px 10px 30px 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px auto;
+    justify-content: center;
+    align-content: center;
+    border-radius: 30px;
+    background: #f0e4e4;
+    transition: all 0.2s linear;
+}
+.contact:hover{
+    box-shadow: 0 0 4px 1px orangered;
+    transition: all 0.2s linear;
+    color: orangered;
+}
+
+/* social network link */
+.social_link .fa-facebook-f:hover{
+ color: #3b5998;
+}
+.social_link .fa-instagram:hover{
+    color: #e4405f;
+}
+.social_link .fa-dribbble:hover{
+ color: #ea4c89;
+}
+.social_link .fa-pinterest:hover{
+    color: #bd081c;
+}
+
+
+/* footer */
+footer{
+    height: 50px;
+    padding-top: 10px;
+    background: orangered;
+    color: #fff;
+}
