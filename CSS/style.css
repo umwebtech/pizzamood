@@ -155,9 +155,11 @@
     float: right;
     padding-top: 50px;
 }
+.fa-arrow-alt-circle-down{
+    color: orangered;
+}
 
 /* Links */
-
 .link_main{
  padding-top: 10px;
  margin-bottom: 50px;
