@@ -113,6 +113,8 @@
 }
 .pizza_image{
     border-radius: 30%;
+    width: 100%;
+    height: auto;
 }
 
 /* ingredient section */
