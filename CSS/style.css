@@ -114,8 +114,9 @@
 .pizza_image{
     border-radius: 30%;
     width: 100%;
-    height: auto;
+  height: auto;
 }
+
 
 /* ingredient section */
 .ingredient_sec{
@@ -150,7 +151,7 @@
     /* box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15) ; */
 }
 .span_text{
-    font-size: 15px;
+    font-size: 16px;
     color: rgb(73, 69, 69);
 }
 .video{
@@ -273,12 +274,10 @@
 .social_link .fa-instagram:hover{
     color: #e4405f;
 }
-.social_link .fa-dribbble:hover{
- color: #ea4c89;
+.social_link .fa-linkedin-in:hover{
+ color: #0e76a8;
 }
-.social_link .fa-pinterest:hover{
-    color: #bd081c;
-}
+
 
 
 /* footer */
